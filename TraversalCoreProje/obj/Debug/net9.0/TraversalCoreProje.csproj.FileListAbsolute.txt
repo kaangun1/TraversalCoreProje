@@ -262,3 +262,4 @@
 /Users/kaangun/Projects/TraversalCoreProje/TraversalCoreProje/obj/Debug/net9.0/compressed/idrt8kydda-epowwbhkmt.gz
 /Users/kaangun/Projects/TraversalCoreProje/TraversalCoreProje/obj/Debug/net9.0/compressed/dmjjw6xhpn-vuzcryci76.gz
 /Users/kaangun/Projects/TraversalCoreProje/TraversalCoreProje/obj/Debug/net9.0/compressed/rfh0plbhdd-bpz4ra0nh3.gz
+/Users/kaangun/Projects/TraversalCoreProje/TraversalCoreProje/obj/Debug/net9.0/TraversalCoreProje.sourcelink.json
