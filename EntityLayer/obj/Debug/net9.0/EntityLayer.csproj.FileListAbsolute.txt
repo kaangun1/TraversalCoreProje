@@ -1,0 +1,14 @@
+/Users/kaangun/Projects/TraversalCoreProje/EntityLayer/bin/Debug/net9.0/EntityLayer.deps.json
+/Users/kaangun/Projects/TraversalCoreProje/EntityLayer/bin/Debug/net9.0/EntityLayer.runtimeconfig.json
+/Users/kaangun/Projects/TraversalCoreProje/EntityLayer/bin/Debug/net9.0/EntityLayer.dll
+/Users/kaangun/Projects/TraversalCoreProje/EntityLayer/bin/Debug/net9.0/EntityLayer.pdb
+/Users/kaangun/Projects/TraversalCoreProje/EntityLayer/obj/Debug/net9.0/EntityLayer.csproj.AssemblyReference.cache
+/Users/kaangun/Projects/TraversalCoreProje/EntityLayer/obj/Debug/net9.0/EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kaangun/Projects/TraversalCoreProje/EntityLayer/obj/Debug/net9.0/EntityLayer.AssemblyInfoInputs.cache
+/Users/kaangun/Projects/TraversalCoreProje/EntityLayer/obj/Debug/net9.0/EntityLayer.AssemblyInfo.cs
+/Users/kaangun/Projects/TraversalCoreProje/EntityLayer/obj/Debug/net9.0/EntityLayer.csproj.CoreCompileInputs.cache
+/Users/kaangun/Projects/TraversalCoreProje/EntityLayer/obj/Debug/net9.0/EntityLayer.dll
+/Users/kaangun/Projects/TraversalCoreProje/EntityLayer/obj/Debug/net9.0/refint/EntityLayer.dll
+/Users/kaangun/Projects/TraversalCoreProje/EntityLayer/obj/Debug/net9.0/EntityLayer.pdb
+/Users/kaangun/Projects/TraversalCoreProje/EntityLayer/obj/Debug/net9.0/EntityLayer.genruntimeconfig.cache
+/Users/kaangun/Projects/TraversalCoreProje/EntityLayer/obj/Debug/net9.0/ref/EntityLayer.dll

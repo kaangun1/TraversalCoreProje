@@ -1,0 +1,17 @@
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/bin/Debug/net9.0/DataAccessLayer.deps.json
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/bin/Debug/net9.0/DataAccessLayer.runtimeconfig.json
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/bin/Debug/net9.0/DataAccessLayer.dll
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/bin/Debug/net9.0/DataAccessLayer.pdb
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/bin/Debug/net9.0/EntityLayer.dll
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/bin/Debug/net9.0/EntityLayer.pdb
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.csproj.AssemblyReference.cache
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.AssemblyInfoInputs.cache
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.AssemblyInfo.cs
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.csproj.CoreCompileInputs.cache
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/obj/Debug/net9.0/DataAcce.E67BD773.Up2Date
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.dll
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/obj/Debug/net9.0/refint/DataAccessLayer.dll
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.pdb
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.genruntimeconfig.cache
+/Users/kaangun/Projects/TraversalCoreProje/DataAccessLayer/obj/Debug/net9.0/ref/DataAccessLayer.dll
