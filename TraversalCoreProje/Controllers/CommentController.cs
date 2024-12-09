@@ -1,5 +1,7 @@
 using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using Microsoft.AspNetCore.Mvc;
+using TraversalCoreProje.Views;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,12 +15,13 @@ public class CommentController:Controller
     {
         return PartialView();
     }
-    [HttpPost]
-    public PartialViewResult AddComment(Comment p)
+[HttpPost]
+    public IActionResult AddComment(Comment p)
     {
         p.CommentState = true;
+        p.DestinationID = 3;
         commentManager.TAdd(p);
-        return PartialView();
+        return RedirectToAction("Index","Destination");
     }
     
 }

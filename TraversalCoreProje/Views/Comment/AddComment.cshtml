@@ -2,7 +2,7 @@
     <h4 class="side-title mb-2">Bir Yorum Bırakın</h4>
     <p class="mb-4">İşaretli Alanları Doldurmanız Gerekmektedir*
     </p>
-    <form method="post">
+    <form method="post" asp-action="AddComment" asp-controller="Comment">
 
         <div class="form-group">
             <textarea name="CommentContent" class="form-control" placeholder="Yorumunuz*" required=""

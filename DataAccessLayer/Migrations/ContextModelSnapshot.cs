@@ -93,7 +93,7 @@ namespace DataAccessLayer.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("CommentID"));
 
-                    b.Property<int>("CommentDate")
+                    b.Property<int?>("CommentDate")
                         .HasColumnType("integer");
 
                     b.Property<bool>("CommentState")
