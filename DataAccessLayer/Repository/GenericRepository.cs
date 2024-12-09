@@ -29,4 +29,10 @@ public class GenericRepository<T>:IGenericDal<T> where T :class
         using var c=new Context();
         return c.Set<T>().ToList();
     }
+
+    public T GetById(int id)
+    {
+        using var c=new Context();
+        return c.Set<T>().Find(id);
+    }
 }

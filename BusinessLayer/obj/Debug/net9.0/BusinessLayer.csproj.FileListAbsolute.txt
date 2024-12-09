@@ -17,3 +17,4 @@
 /Users/kaangun/Projects/TraversalCoreProje/BusinessLayer/obj/Debug/net9.0/BusinessLayer.pdb
 /Users/kaangun/Projects/TraversalCoreProje/BusinessLayer/obj/Debug/net9.0/BusinessLayer.genruntimeconfig.cache
 /Users/kaangun/Projects/TraversalCoreProje/BusinessLayer/obj/Debug/net9.0/ref/BusinessLayer.dll
+/Users/kaangun/Projects/TraversalCoreProje/BusinessLayer/obj/Debug/net9.0/BusinessLayer.sourcelink.json

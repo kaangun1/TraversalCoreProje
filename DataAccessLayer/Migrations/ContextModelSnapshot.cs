@@ -85,7 +85,7 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("About2s");
                 });
 
-            modelBuilder.Entity("EntityLayer.Concrete.Cotact", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.Contact", b =>
                 {
                     b.Property<int>("CotactID")
                         .ValueGeneratedOnAdd()
@@ -136,6 +136,10 @@ namespace DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("ComerImage")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("DayNight")
                         .IsRequired()
                         .HasColumnType("text");
@@ -144,7 +148,19 @@ namespace DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("Details1")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Details2")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Image2")
                         .IsRequired()
                         .HasColumnType("text");
 

@@ -12,3 +12,4 @@
 /Users/kaangun/Projects/TraversalCoreProje/EntityLayer/obj/Debug/net9.0/EntityLayer.pdb
 /Users/kaangun/Projects/TraversalCoreProje/EntityLayer/obj/Debug/net9.0/EntityLayer.genruntimeconfig.cache
 /Users/kaangun/Projects/TraversalCoreProje/EntityLayer/obj/Debug/net9.0/ref/EntityLayer.dll
+/Users/kaangun/Projects/TraversalCoreProje/EntityLayer/obj/Debug/net9.0/EntityLayer.sourcelink.json
