@@ -85,6 +85,38 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("About2s");
                 });
 
+            modelBuilder.Entity("EntityLayer.Concrete.Comment", b =>
+                {
+                    b.Property<int>("CommentID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("CommentID"));
+
+                    b.Property<int>("CommentDate")
+                        .HasColumnType("integer");
+
+                    b.Property<bool>("CommentState")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("CommentUser")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("DestinationID")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("VommentContent")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("CommentID");
+
+                    b.HasIndex("DestinationID");
+
+                    b.ToTable("Comments");
+                });
+
             modelBuilder.Entity("EntityLayer.Concrete.Contact", b =>
                 {
                     b.Property<int>("CotactID")
@@ -331,6 +363,22 @@ namespace DataAccessLayer.Migrations
                     b.HasKey("TestimonialID");
 
                     b.ToTable("Testimonials");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.Comment", b =>
+                {
+                    b.HasOne("EntityLayer.Concrete.Destination", "Destination")
+                        .WithMany("Comments")
+                        .HasForeignKey("DestinationID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Destination");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.Destination", b =>
+                {
+                    b.Navigation("Comments");
                 });
 #pragma warning restore 612, 618
         }
