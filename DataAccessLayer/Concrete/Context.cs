@@ -1,8 +1,9 @@
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-public class Context : DbContext
+public class Context : IdentityDbContext<AppUser,AppRole,int>
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
