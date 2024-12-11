@@ -5413,8 +5413,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net9.0": {
@@ -5478,7 +5477,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "'System.Security.Cryptography.Xml' 4.5.0 paketinde önem derecesi orta olan bilinen bir https://github.com/advisories/GHSA-vh55-786g-wjwj güvenlik açığı var",
+      "message": "Package 'System.Security.Cryptography.Xml' 4.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vh55-786g-wjwj",
       "libraryId": "System.Security.Cryptography.Xml",
       "targetGraphs": [
         "net9.0"
@@ -5488,7 +5487,7 @@
       "code": "NU1904",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "'System.Text.Encodings.Web' 4.5.0 paketinde önem derecesi kritik olan bilinen bir https://github.com/advisories/GHSA-ghhp-997w-qr28 güvenlik açığı var",
+      "message": "Package 'System.Text.Encodings.Web' 4.5.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-ghhp-997w-qr28",
       "libraryId": "System.Text.Encodings.Web",
       "targetGraphs": [
         "net9.0"
