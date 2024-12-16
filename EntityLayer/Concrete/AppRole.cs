@@ -4,5 +4,5 @@ namespace EntityLayer.Concrete;
 
 public class AppRole:IdentityRole<int>
 {
-    
+       
 }

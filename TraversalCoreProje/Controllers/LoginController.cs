@@ -48,8 +48,7 @@ public class LoginController : Controller
         }
         return View(p);
     }
-    [HttpGet] 
-    [HttpPost]
+    [HttpGet]
     public IActionResult SignIn()
     {
         return View();
