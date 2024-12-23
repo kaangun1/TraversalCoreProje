@@ -36,7 +36,7 @@ public class LoginController : Controller
             var result = await _userManager.CreateAsync(appUser, p.Password);
             if (result.Succeeded)
             {
-            return RedirectToAction("SignIn");    
+                return RedirectToAction("SignIn");    
             }
             else
             {

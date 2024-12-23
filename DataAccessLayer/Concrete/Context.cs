@@ -6,9 +6,9 @@ using Microsoft.EntityFrameworkCore.Metadata;
 public class Context : IdentityDbContext<AppUser,AppRole,int>
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseNpgsql(@"server=127.0.0.1;User Id=postgres;password=1234;Database=TraveersalDB");
-    }
+        {
+            optionsBuilder.UseNpgsql(@"server=127.0.0.1;User Id=postgres;password=1234;Database=TraveersalDB");
+        }
 
     public DbSet<About> Abouts { get; set; }
     public DbSet<About2> About2s { get; set; }

@@ -12,7 +12,7 @@ public class UserRegisterViewModel
     
     [Required(ErrorMessage = "Lütfen kullanıcı adınızı giriniz giriniz.")]
     public string UserName { get; set; }
-    
+    public string Username { get; internal set; }
     [Required(ErrorMessage = "Lütfen mail giriniz.")]
     public string Mail { get; set; }
     
