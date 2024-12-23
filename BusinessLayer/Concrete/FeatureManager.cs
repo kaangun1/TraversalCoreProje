@@ -1,42 +1,46 @@
-using BusinessLayer.Abstract;
+﻿using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
 using EntityLayer.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace BusinessLayer.Concrete;
-
-public class FeatureManager:IFeatureService
+namespace BusinessLayer.Concrete
 {
-    IFeatureDal _featureDal;
-    private IFeatureService _featureServiceImplementation;
-
-    public FeatureManager(IFeatureDal featureDal)
+    public class FeatureManager:IFeatureService
     {
-        _featureDal = featureDal;
-    }
+        IFeatureDal _featureDal;
 
-    public void TAdd(Feature t)
-    {
-        throw new NotImplementedException();
-    }
+        public FeatureManager(IFeatureDal featureDal)
+        {
+            _featureDal = featureDal;
+        }
 
-    public void TDelete(Feature t)
-    {
-        throw new NotImplementedException();
-    }
+        public void TAdd(Feature t)
+        {
+            throw new NotImplementedException();
+        }
 
-    public void TUpdate(Feature t)
-    {
-        throw new NotImplementedException();
-    }
+        public void TDelete(Feature t)
+        {
+            throw new NotImplementedException();
+        }
 
-    public List<Feature> TGetList()
-    {
-        return _featureDal.GetList();
-        
-    }
+        public Feature TGetByID(int id)
+        {
+            throw new NotImplementedException();
+        }
 
-    public Feature TGetById(int id)
-    {
-        throw new NotImplementedException();
+        public List<Feature> TGetList()
+        {
+            return _featureDal.GetList();
+        }
+
+        public void TUpdate(Feature t)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
