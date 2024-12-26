@@ -1,5 +1,5 @@
 ﻿using DataAccessLayer.Abstract;
-using DataAccessLayer.Concrete;
+using DataAccessLayer.Comcrete;
 using DataAccessLayer.Repository;
 using EntityLayer.Concrete;
 using Microsoft.EntityFrameworkCore;

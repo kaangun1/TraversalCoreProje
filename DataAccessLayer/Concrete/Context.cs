@@ -1,6 +1,9 @@
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore.Metadata;
 
 public class Context : IdentityDbContext<AppUser,AppRole,int>
@@ -22,7 +25,7 @@ public class Context : IdentityDbContext<AppUser,AppRole,int>
     public DbSet<Testimonial> Testimonials { get; set; }
     public DbSet<Comment> Comments  { get; set; }
     public DbSet<Reservation> Reservations { get; set; }
- //   public DbSet<Announcement> Announcements { get; set; }
- //   public DbSet<Account> Accounts { get; set; }
+    public DbSet<Announcement> Announcements { get; set; }
+    public DbSet<Account> Accounts { get; set; }
 
 }

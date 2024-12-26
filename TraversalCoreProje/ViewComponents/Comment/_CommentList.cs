@@ -1,16 +1,23 @@
-using BusinessLayer.Concrete;
+﻿using BusinessLayer.Concrete;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace TraversalCoreProje.ViewComponents.Comment;
-
-public class _CommentList:ViewComponent
+namespace TraversalCoreProje.ViewComponents.Comment
 {
-    CommentManager CommentManager = new CommentManager(new EfCommentDal());
-    public IViewComponentResult Invoke(int id)
+    public class _CommentList:ViewComponent
     {
-
-        var values = CommentManager.TGetDestinationById(id).ToList();
-        return View(values);
+        CommentManager commentManager = new CommentManager(new EfCommentDal());
+        Context context = new Context();
+        public IViewComponentResult Invoke(int id)
+        {
+            ViewBag.commentCount = context.Comments.Where(x => x.DestinationID == id).Count();
+            var values = commentManager.TGetListCommentWithDestinationAndUser(id);
+            return View(values);
+        }
     }
 }

@@ -1,17 +1,21 @@
-using BusinessLayer.Concrete;
+﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace TraversalCoreProje.Views;
-
-public class _Feature:ViewComponent
+namespace TraversalCoreProje.ViewComponents.Default
 {
-    private FeatureManager featureManager = new FeatureManager(new EfFeatureDal());
-    public IViewComponentResult Invoke()
+    public class _Feature:ViewComponent
     {
-       // var values = featureManager.TGetList();
-       // ViewBag.image1=featureManager.get
-        return View();
+        FeatureManager featureManager = new FeatureManager(new EfFeatureDal());
+        public IViewComponentResult Invoke()
+        {
+            //var values = featureManager.TGetList();
+           // ViewBag.image1=featureManager.get
+            return View();
+        }
     }
-    
 }

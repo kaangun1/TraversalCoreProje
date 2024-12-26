@@ -24,7 +24,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
+      <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
+        <ReferenceSourceTarget></ReferenceSourceTarget>
+      </ProjectReference>
     </ItemGroup>
 
 </Project>
